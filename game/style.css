@@ -1,0 +1,16 @@
+/* Definindo o estilo do corpo da página */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Impede que a barra de rolagem apareça */
+  background-color: #ffa500; /* Cor de fundo fixa */
+}
+
+/* Definindo o estilo do canvas */
+canvas {
+  display: block;
+  position: fixed; /* Faz o canvas ocupar toda a tela */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Coloca o canvas abaixo de outros elementos, como o conteúdo */
+}
